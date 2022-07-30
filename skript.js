@@ -185,12 +185,13 @@
 
 
 
-//    let userName = prompt("your year of birth", '');
+//    let userName = +prompt("your year of birth", '');
+   
 // console.log( userName>=16 ? "Да" : "Нет");
 // alert( userName>=16 ? "Добро пожаловать" : "вход воспрещен" );
 
 
-// let userName = prompt("your year of birth", '');
+// let userName =  +prompt("your year of birth", '');
 // if(userName>=16){
 //     alert('добро пожаловать');
 // } else {
@@ -223,9 +224,9 @@
 //      else (alert('do not lie'))
 
 
-// let userName = prompt('ВВЕДИТЕ ЧИСЛО');
+// let userName = +prompt('ВВЕДИТЕ ЧИСЛО');
 // let result = userName;
-// alert(userName == 1 ?'Monday': userName == 2 ?'Tuesday':userName == 3 ?'Wednesday':userName == 4 ?'Thursday':userName == 5 ?'Friday':userName == 6 ?'Saturday':userName == 7 ?'Sunday':'');
+// alert(userName === 1 ?'Monday': userName === 2 ?'Tuesday':userName === 3 ?'Wednesday':userName === 4 ?'Thursday':userName === 5 ?'Friday':userName === 6 ?'Saturday':userName === 7 ?'Sunday':'');
 
 
 // let userName = prompt('ВВЕДИТЕ ЧИСЛО');
@@ -255,19 +256,19 @@
 
 // let userName = prompt('ВВЕДИТЕ ЧИСЛО');
 // let result = userName;
-// if(userName == 1){
+// if(userName ===1){
 //     alert('Monday')
-// } else if (userName == 2) 
+// } else if (userName ===2) 
 //      alert('Tuesday')
-//   else if (userName == 3) 
+//   else if (userName ===3) 
 //      alert('Wednesday')
-//   else if (userName == 4) 
+//   else if (userName ===4) 
 //      alert('Thursday') 
-//   else if (userName == 5) 
+//   else if (userName ===5) 
 //      alert('Friday')
-//   else if (userName == 6) 
+//   else if (userName ===6) 
 //      alert('Saturday')
-//   else if (userName == 7) 
+//   else if (userName ===7) 
 //      alert('Sunday')
     
 //    else {
@@ -275,7 +276,7 @@
 //   }
 
 
-// let userName = prompt('ВВЕДИТЕ ЧИСЛО');
+// let userName = +prompt('ВВЕДИТЕ ЧИСЛО');
 // let result = userName;
 // if(userName > 0){
 //   alert(1)
@@ -285,19 +286,19 @@
 // alert(0)  
 // else {
 //     alert('неправильный ввод данных')
-// }
+// }s
 
 
 
 
 // let login = prompt('login');
 //  let result = login;
-//  if(login == 'Сотрудник'? alert('Привет') : login == 'Директор'? alert ('Здравствуйте') : login == '' ? alert('Нет логина'):'');
+//  if(login ==='Сотрудник'? alert('Привет') : login ==='Директор'? alert ('Здравствуйте') : login ==='' ? alert('Нет логина'):'');
 
 
  
 
-  // let houseNumber = prompt('ENTER HOUSE NUMBER');
+  // let houseNumber = +prompt('ENTER HOUSE NUMBER');
   // let result = houseNumber;
   
   
@@ -308,10 +309,10 @@
 
 //   let browser = prompt('выберите браузер');
 //  let result = browser;
-//  if(browser =='Edge'){
+//  if(browser ==='Edge'){
 //   alert("You've got the Edge!")
 
-//   } else if(browser == 'Chrome'|| browser == 'Firefox'|| browser =='Safari'||browser =='Opera')
+//   } else if(browser ==='Chrome'|| browser ==='Firefox'|| browser ==='Safari'||browser ==='Opera')
   
 //    alert('Okay we support these browsers too')
   
