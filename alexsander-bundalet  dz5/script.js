@@ -151,4 +151,22 @@
     
 //     console.log(inArray(7,mas));
 
- 
+var input = "javascript is awesome";
+var output = "";
+for (var i = 0; i < input.length; i++){
+
+    var outputSign = input[i];  
+
+    if (outputSign == "a"){
+        output += 'A';
+    } else if (outputSign == "e"){
+        output += 3;
+    } else if (outputSign == "i"){
+        output += 1;                    
+    } else if (outputSign == "o"){
+        output += 0;
+    } else {
+    output += outputSign;
+    };
+};
+console.log(output);
