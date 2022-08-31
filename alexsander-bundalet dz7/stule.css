@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    font-family: 'Space Grotesk', sans-serif;
+    
+    background: #000000;
+    width: 100%;
+    height: 180vh;
+    
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 1772px;
+
+
+    border-radius: 0px;
+
+
+}
+
+
+.figures_cotainer {
+    width: 100%;
+    height: 35%;
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+    grid-template-rows: repeat(3, 206px);
+    width: 100%;
+    padding: 20px;
+   
+    
+}
+.figure1 {
+ 
+    height: 137px;
+    width: 137px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left: 20%;
+    
+  
+
+
+
+
+
+
+
+}
+.figure2 {
+    
+    height: 25px;
+    width: 25px;
+   
+    border-radius: 32px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    margin-left: 39%;
+    margin-top: 10%;
+    
+}
+.figure3 {
+    
+    height: 51px;
+    width: 51px;
+    left: 388px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left:52% ;
+
+
+}
+.figure4 {
+    height: 42px;
+    width: 42px;
+    left: 488px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left: 57%;
+    margin-top: 15%;
+
+
+}
+.figure5 {
+    height: 90px;
+    width: 90px;
+   
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left: 5%;
+    margin-top: 15%;
+
+
+}
+.figure6 {
+    height: 90px;
+    width: 90px;
+    left: 198px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left: -5%;
+    margin-top: -9%;
+
+
+}
+.figure7 {
+    height: 90px;
+    width: 90px;
+   
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left: 75%;
+    margin-top: 45%;
+
+    
+}
+
+
+.figure8 {
+    height: 42px;
+    width: 42px;
+    left: 968px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    margin-left: 72%;
+    margin-top: 42%;
+
+}
+.figure9 {
+    height: 63px;
+    width: 63px;
+   
+    background-color: #FFFFFF;
+    border-radius: 32px;
+   
+    margin-left: 41%;
+    margin-top: 40%;
+
+}
+.figure10 {
+    height: 42px;
+    width: 42px;
+    left: 968px;
+    background-color: #FFFFFF;
+  
+    border-radius: 32px;
+    margin-left: 20%;
+    margin-top: 15%;
+
+}
+.figure11 {
+    height: 90px;
+    width: 90px;
+   
+    background-color: #FFFFFF;
+
+    border-radius: 32px;
+    margin-left: 10%;
+    margin-top: 25%;
+
+}
+
+
+
+.button {
+    
+    height: 73px;
+    width: 264px;
+    display: flex;   
+    Top:15%;
+    Left:45%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    color: #000000#750505;
+    position: absolute;
+    
+}
+.container_cards {
+    
+    width: 100%;
+   top: 40%;
+   position: absolute;
+}
+.wrapper {
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr );
+    grid-template-rows: repeat(3, 300px);
+  
+
+}
+.box {
+    background-color: #3E3E3E;  
+    height: 251px;
+    width: 180px;
+
+
+    border-radius: 12px;
+    margin: 0 auto;
+    position: relative;
+   
+    
+
+
+
+
+}
+
+.wrapper_box {
+    text-decoration: none;
+   
+
+}
+
+.wrapper_box:hover {
+    background-color: #ffffff;  
+    height: 270px;
+    width: 180px;
+
+
+    border-radius: 14px;
+    margin: 0 auto;
+    position: relative;
+    
+   
+
+}
+
+
+.img {
+text-decoration: none;
+}
+
+    
+    .img {
+        
+         position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 147px;
+    
+    border-radius: 0px;
+    }
+
+
+
+
+ 
+
+ 
+
+
+
+
+img{
+    width: 165px;
+    height: 195px;
+    margin: 7px;
+  
+    border-radius:10px;
+
+}
+
+.Card_Name {
+    position: absolute;
+   
+    left: 17px;
+    top: 17px; 
+    color: #FFFFFF;   
+ 
+}
+.card_description {
+    position: absolute;
+   
+    left: 17px;
+    top: 170px;
+    color: #FFFFFF;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
